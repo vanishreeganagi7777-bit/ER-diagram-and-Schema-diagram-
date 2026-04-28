@@ -18,8 +18,37 @@ Employees can work with clients controlled by their branch to sell them stuff. I
 
 Many branches will need to work with suppliers to buy inventory. For each supplier we’ll keep track of their name and the type of product they’re selling the branch. A single supplier may supply products to multiple branches.
 
-
+## ER Diagram:
 <img width="1167" height="726" alt="ER diagram" src="https://github.com/user-attachments/assets/c6e6b57f-ee9b-4418-825b-d378581e1e6f" />
 
+
+
+## Schema Diagram:
 <img width="1619" height="971" alt="schema diagrams" src="https://github.com/user-attachments/assets/82786100-b0c6-4e59-8a64-a9727f0571db" />
+
+
+
+## Algorithm:
+Algorithm
+
+## Step1: 
+	Mapping of Regular Entity Types:
+				For each regular entity type create a relation(table) that includes all the simple attributes of the regular entity. 
+## Step2:
+	Mapping of Weak Entity Types:
+				For each weak entity type create a relation (table) that includes all simple attributes of the weak entity.
+## Step3:
+	Mapping of Binary Relationship Types:
+				Include one side of the relationship as a foreign key in the other favor total participation.
+
+
+## Step4:
+	Mapping of Binary(1-N) Relationship Types:
+				For each weak entity type create a relation (table) that includes all simple attributes of the weak entity.
+
+
+## Step5:
+	Mapping of Binary(M-N) Relationship Types:
+				Create a new relation (table) who's primary key is a combination of both entities primary key's . Also include any relationship attributes.
+
 
